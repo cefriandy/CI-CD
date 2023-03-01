@@ -47,9 +47,12 @@ jobs:
 #      uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
 
 
+#choose java maven in action github
 #login to dockerhub
 #build docker image
 #push docker image to docker hub
 #  Docker Build & Push Action · Actions · GitHub Marketplace
 #docker tag local-image:tagname new-repo:tagname
 #docker push new-repo:tagname
+#docker images ->to chekc the images
+#docker run -p 8080:8080 cefriandy/java-ci-cd
